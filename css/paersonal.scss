@@ -1,0 +1,58 @@
+#PersonalHeader{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    .forImage{
+        background-image:url("http://preview.yrthemes.com/cinamatography/assets/img/bradcamb/banner2.png");
+        height: 413px; 
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        width: 100%;
+        position: relative;
+        .userImage{
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            text-align: center;
+            img{
+                width: 40%;
+                height: 40%;
+                border-radius: 100%;
+                border: 5px solid rgb(168, 19, 19);
+            }
+            a{
+                color: rgb(192, 60, 60);
+            }
+            p{
+                color: rgb(240, 229, 229);
+                font-size: 1.5em;
+            }
+        }
+        
+    }
+}
+#main{
+    padding: 7% 0%;
+}
+.collapseTexts{
+    width: 100%;
+    text-align: center;
+    a{
+        margin-left: 5%;
+        color: white;
+        font-size: 1.6em;
+        text-decoration: none;
+        padding: 3%;
+        background-color: gray;
+        &:hover{
+            box-shadow: 3px 3px 13px black;
+            background-color: rgb(146, 52, 52);
+        }
+    }
+}
+#blogToggle{
+    margin-top: 5%;
+}
+#table{
+    margin-top: 5%;
+}
